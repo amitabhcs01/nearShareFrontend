@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/((?!api|uploads).*项目相关/.*|.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "node node_modules/vite/bin/vite.js build",
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
