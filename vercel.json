@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!api|uploads).*项目相关/.*|.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
